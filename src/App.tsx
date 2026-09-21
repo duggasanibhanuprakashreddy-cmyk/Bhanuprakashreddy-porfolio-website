@@ -23,7 +23,7 @@ export default function App() {
       {/* Sticky Glass Navbar */}
       <Navbar onOpenResume={() => setIsResumeOpen(true)} />
 
-      {/* Main Content Sections */}
+    {/* Main Portfolio Content - Projects Section Added */}
       <main className="pt-20">
         <HeroSection onOpenResume={() => setIsResumeOpen(true)} />
         <AboutSection />
